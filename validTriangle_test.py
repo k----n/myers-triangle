@@ -5,11 +5,11 @@ def testEquilateral():
     assert triangleType(6, 6, 6) == 'Equilateral Triangle'
  
 def testIsosceles():
-    assert triangleType(6, 6, 5) == 'Isoceles Triangle'
+    assert triangleType(6, 6, 5) == 'Isosceles Triangle'
 
-    assert triangleType(5, 6, 5) == 'Isoceles Triangle'
+    assert triangleType(5, 6, 5) == 'Isosceles Triangle'
 
-    assert triangleType(6, 5, 5) == 'Isoceles Triangle'
+    assert triangleType(6, 5, 5) == 'Isosceles Triangle'
 
 def testScalene():
     assert triangleType(4, 5, 6) == 'Scalene Triangle'
